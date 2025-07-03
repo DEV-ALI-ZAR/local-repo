@@ -7,6 +7,8 @@ Welcome to **localrepo**! This repository is a local Git project for testing and
 - Practice Git commands and workflows
 - Experiment with branching, merging, and commits
 - Safe environment for learning version control
+- Test working with multiple branches
+- Learn how to resolve merge conflicts
 
 ## Getting Started
 
@@ -14,12 +16,16 @@ Welcome to **localrepo**! This repository is a local Git project for testing and
     ```bash
     git clone <repository-url>
     ```
-2. Make your changes and commit:
+2. Create and switch to a new branch:
+    ```bash
+    git checkout -b your-feature-branch
+    ```
+3. Make your changes and commit:
     ```bash
     git add .
     git commit -m "Your message"
     ```
-3. Push or pull as needed.
+4. Merge branches or push/pull as needed.
 
 ## License
 
